@@ -43,6 +43,7 @@ body {
   font-family: "Rubik", sans-serif;
   color: #4f5665;
   font-weight: 400;
+  background-color: white;
 }
 
 .wrapper {
@@ -104,6 +105,18 @@ h4,
 h5,
 h6 {
   color: #0b132a;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.4285714286;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.text {
+  line-height: 1.875;
 }
 
 .header {
@@ -200,6 +213,32 @@ h6 {
 }
 .intro-text {
   line-height: 1.5;
+}
+
+.feature {
+  padding-bottom: 130px;
+}
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0 170px;
+}
+.feature-image img {
+  min-width: 508px;
+}
+.feature-desc {
+  margin-bottom: 23px;
+}
+.feature-list {
+  list-style-type: none;
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  margin-bottom: 21px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=app.css.map */
