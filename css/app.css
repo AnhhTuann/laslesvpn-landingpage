@@ -1,136 +1,41 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html {
+  box-sizing: border-box;
+}
+
+* {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-body {
-  line-height: 1;
+input,
+textarea,
+select,
+button {
+  outline: none;
 }
 
-ol,
-ul {
-  list-style: none;
+input {
+  line-height: normal;
 }
 
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+label,
+button {
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 body {
@@ -151,8 +56,50 @@ body {
   padding: 0 15px;
 }
 
+.button {
+  display: inline-block;
+  padding: 13px 45px;
+  border-radius: 100rem;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.button--primary {
+  font-weight: 700;
+  background-color: #f53838;
+  color: white;
+}
+.button--outline {
+  background: transparent;
+  color: #f53838;
+  font-weight: 500;
+  border: 1px solid;
+}
+.button--rounded {
+  border-radius: 10px;
+  padding: 17px 65px;
+  position: relative;
+}
+.button--rounded:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 90%;
+  background: rgba(245, 56, 56, 0.35);
+  filter: blur(54px);
+  border-radius: 10px;
+  transform: translate(-50%, 50%);
+  z-index: -1;
+}
+
 .header {
   padding-top: 50px;
+  padding-bottom: 90px;
 }
 .header-container {
   display: flex;
@@ -169,13 +116,6 @@ body {
   font-weight: 500;
   color: #0b132a;
 }
-.header-signup {
-  padding: 13px 45px;
-  border-radius: 100rem;
-  color: #f53838;
-  border: 1px solid;
-  font-weight: 500;
-}
 
 .menu {
   list-style: none;
@@ -185,6 +125,40 @@ body {
 }
 .menu-link {
   color: inherit;
+}
+
+.banner {
+  padding-bottom: 100px;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.banner-content {
+  width: 100%;
+  max-width: 555px;
+}
+.banner-image {
+  position: absolute;
+  top: 50%;
+  transform: translate(40px, -50%);
+  right: 0;
+}
+.banner-heading {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  color: #0b132a;
+}
+.banner-desc {
+  line-height: 1.875;
+  margin-bottom: 50px;
+}
+.banner-desc strong {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=app.css.map */
