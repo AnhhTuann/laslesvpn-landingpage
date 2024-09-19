@@ -41,6 +41,8 @@ body {
   &--rounded {
     border-radius: 10px;
     padding: 17px 65px;
+  }
+  &--shadow {
     position: relative;
     &:after {
       content: '';
@@ -49,11 +51,10 @@ body {
       left: 50%;
       height: 100%;
       width: 90%;
-      background: rgba(245, 56, 56, 0.35);
+      background-color: rgba(245, 56, 56, 0.35);
       filter: blur(54px);
-      border-radius: 10px;
+      border-radius: inherit;
       transform: translate(-50%, 50%);
-      z-index: -1;
     }
   }
 }
