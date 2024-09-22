@@ -324,4 +324,10 @@ body {
   margin-top: 155px;
 }
 
+.partner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*# sourceMappingURL=app.css.map */
