@@ -38,6 +38,30 @@ img {
   max-width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0b132a;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.4285714286;
+  margin-bottom: 20px;
+}
+
+.text {
+  line-height: 1.875;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
 body {
   line-height: 1;
   font-family: "Rubik", sans-serif;
@@ -99,25 +123,11 @@ body {
   transform: translate(-50%, 50%);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #0b132a;
-}
-
-.heading {
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 1.4285714286;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.text {
-  line-height: 1.875;
+.boxed {
+  max-width: 555px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .header {
@@ -244,7 +254,7 @@ h6 {
 
 .plan {
   padding: 80px 0 150px;
-  background-color: #fbfbfb;
+  background: linear-gradient(180deg, #f8f8f8 -45, 4% rgba 248, 248, 248, 0 88.56%);
 }
 .plan-header {
   max-width: 555px;
@@ -255,6 +265,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
+  margin-bottom: 176px;
 }
 .plan-item {
   border: 2px solid #dddddd;
@@ -302,6 +313,15 @@ h6 {
   background-color: #f53838;
   color: white;
   box-shadow: 0 20px 54px -5px rgba(245, 56, 56, 0.35);
+}
+
+.network-heading {
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.network-image {
+  margin-top: 155px;
 }
 
 /*# sourceMappingURL=app.css.map */
