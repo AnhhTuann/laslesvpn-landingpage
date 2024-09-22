@@ -48,16 +48,21 @@
   &-price {
     font-size: 25px;
     font-weight: 500;
+    line-height: calc(30 / 25);
     margin-bottom: 30px;
     margin-top: auto;
+    span {
+      color: #4f5665;
+      font-weight: 400;
+    }
   }
 
-  &-item.is-active,
   &-item:hover {
     border-color: $primary-color;
     .button {
       background-color: $primary-color;
       color: white;
+      box-shadow: 0 20px 54px -5px rgba(245, 56, 56, 0.35);
     }
   }
 }

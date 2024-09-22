@@ -287,15 +287,21 @@ h6 {
 .plan-price {
   font-size: 25px;
   font-weight: 500;
+  line-height: 1.2;
   margin-bottom: 30px;
   margin-top: auto;
 }
-.plan-item.is-active, .plan-item:hover {
+.plan-price span {
+  color: #4f5665;
+  font-weight: 400;
+}
+.plan-item:hover {
   border-color: #f53838;
 }
-.plan-item.is-active .button, .plan-item:hover .button {
+.plan-item:hover .button {
   background-color: #f53838;
   color: white;
+  box-shadow: 0 20px 54px -5px rgba(245, 56, 56, 0.35);
 }
 
 /*# sourceMappingURL=app.css.map */
