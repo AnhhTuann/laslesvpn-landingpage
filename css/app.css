@@ -54,6 +54,13 @@ h6 {
   margin-bottom: 20px;
 }
 
+.heading-small {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+  line-height: 1.6666666667;
+}
+
 .text {
   line-height: 1.875;
 }
@@ -62,12 +69,23 @@ h6 {
   font-weight: 500;
 }
 
+.text-small {
+  font-size: 14px;
+  line-height: 2.1428571429;
+}
+
 body {
   line-height: 1;
   font-family: "Rubik", sans-serif;
   color: #4f5665;
   font-weight: 400;
   background-color: white;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .wrapper {
@@ -324,10 +342,114 @@ body {
   margin-top: 155px;
 }
 
+.partner {
+  padding-bottom: 50px;
+}
 .partner-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0 60px;
+}
+
+.customer {
+  padding-bottom: 65px;
+}
+.customer .boxed {
+  margin-bottom: 60px;
+}
+.customer .heading {
+  max-width: 447px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.customer-item {
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  padding: 30px;
+}
+.customer-item.slick-current.slick-active {
+  border-color: #f53838;
+}
+.customer-top {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer-info {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+.customer-avatar {
+  width: 50px;
+  height: 50px;
+}
+.customer-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100rem;
+}
+.customer-name, .customer-address {
+  line-height: 1;
+}
+.customer-rating {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.customer .slick-slide {
+  height: auto;
+}
+.customer .slick-track {
+  display: flex;
+  gap: 0 50px;
+  padding-bottom: 60px;
+}
+.customer .slick-dots {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  transform: translateY(50%);
+}
+.customer .slick-dots button {
+  font-size: 0;
+  background-color: #dde0e4;
+  width: 15px;
+  height: 15px;
+  border-radius: 100rem;
+  transition: all 0.2s linear;
+}
+.customer .slick-active button {
+  background-color: #f53838;
+  width: 45px;
+}
+.customer .slick-arrow {
+  width: 60px;
+  height: 60px;
+  border-radius: 100rem;
+  color: #f53838;
+  background: white;
+  border: 2px solid #f53838;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  z-index: 10;
+}
+.customer .slick-arrow:hover {
+  background: #f53838;
+  color: white;
+  border: none;
+}
+.customer .slick-next {
+  right: 0;
+}
+.customer .slick-prev {
+  right: 80px;
 }
 
 /*# sourceMappingURL=app.css.map */
