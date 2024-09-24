@@ -148,6 +148,10 @@ button {
   text-align: center;
 }
 
+.link:hover {
+  color: #f53838;
+}
+
 .header {
   padding-top: 50px;
   padding-bottom: 90px;
@@ -167,9 +171,6 @@ button {
   font-weight: 500;
   color: #0b132a;
 }
-.header-signin:hover {
-  color: #f53838;
-}
 .header-signup:hover {
   color: white;
   background-color: #f53838;
@@ -184,9 +185,6 @@ button {
 }
 .menu-link {
   color: inherit;
-}
-.menu-link:hover {
-  color: #f53838;
 }
 
 .banner {
@@ -368,9 +366,6 @@ button {
   gap: 0 60px;
 }
 
-.customer {
-  padding-bottom: 65px;
-}
 .customer .boxed {
   margin-bottom: 60px;
 }
@@ -380,9 +375,10 @@ button {
   margin-right: auto;
 }
 .customer-item {
-  border: 2px solid #dddddd;
+  border: 2px solid #f8f8f8;
   border-radius: 10px;
   padding: 30px;
+  margin: 0 25px;
 }
 .customer-item.slick-current.slick-active {
   border-color: #f53838;
@@ -488,6 +484,11 @@ button {
 .subscribe-logo {
   margin-bottom: 20px;
   background: #0d1025;
+}
+.subscribe-button:hover {
+  background-color: #0b132a;
+  color: #fff;
+  border-color: #0b132a;
 }
 .subscribe .copyright {
   color: #afb5c0;

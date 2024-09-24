@@ -17,10 +17,6 @@
     color: $heading-color;
   }
 
-  &-signin:hover {
-    color: $primary-color;
-  }
-
   &-signup:hover {
     color: white;
     background-color: $primary-color;
@@ -35,9 +31,5 @@
   gap: 0 40px;
   &-link {
     color: inherit;
-  }
-
-  &-link:hover {
-    color: $primary-color;
   }
 }

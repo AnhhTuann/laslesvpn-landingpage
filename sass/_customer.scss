@@ -1,5 +1,4 @@
 .customer {
-  padding-bottom: 65px;
   .boxed {
     margin-bottom: 60px;
   }
@@ -17,9 +16,10 @@
   // }
 
   &-item {
-    border: 2px solid #dddddd;
+    border: 2px solid #f8f8f8;
     border-radius: 10px;
     padding: 30px;
+    margin: 0 25px;
     &.slick-current.slick-active {
       border-color: $primary-color;
     }
