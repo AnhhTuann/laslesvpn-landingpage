@@ -120,3 +120,17 @@
     right: 80px; // kich thuoc button 60px + khoang cach 2 button 20px = 80px
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .customer {
+    .slick-track {
+      padding-bottom: 20px;
+    }
+    .slick-dots {
+      justify-content: center;
+    }
+  }
+  .customer-list {
+    padding-bottom: 50px;
+  }
+}

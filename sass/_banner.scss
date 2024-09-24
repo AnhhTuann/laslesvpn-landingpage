@@ -7,19 +7,16 @@
     gap: 0 40px;
     position: relative;
   }
-
   &-content {
     width: 100%;
     max-width: 555px;
   }
-
   // &-image {
   //   position: absolute;
   //   top: 50%;
   //   transform: translate(40px, -50%);
   //   right: 0;
   // }
-
   &-heading {
     font-size: 50px;
     font-weight: 500;
@@ -32,7 +29,6 @@
     color: #fff;
     border-color: #0b132a;
   }
-
   &-desc {
     margin-bottom: 50px;
   }
