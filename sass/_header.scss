@@ -16,6 +16,16 @@
     font-weight: 500;
     color: $heading-color;
   }
+
+  &-signin:hover {
+    color: $primary-color;
+  }
+
+  &-signup:hover {
+    color: white;
+    background-color: $primary-color;
+    box-shadow: 0 20px 54px -5px rgba(245, 56, 56, 0.35);
+  }
 }
 
 .menu {
@@ -25,5 +35,9 @@
   gap: 0 40px;
   &-link {
     color: inherit;
+  }
+
+  &-link:hover {
+    color: $primary-color;
   }
 }

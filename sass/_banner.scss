@@ -26,6 +26,11 @@
     line-height: calc(70 / 50);
     color: $heading-color;
   }
+  &-button:hover {
+    background-color: #0b132a;
+    color: #fff;
+    border-color: #0b132a;
+  }
 
   &-desc {
     line-height: calc(30 / 16);
